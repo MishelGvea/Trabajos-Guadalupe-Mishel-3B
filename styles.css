@@ -1,0 +1,98 @@
+body {
+    background-color: #f5f5dc; /* Cambia el color de fondo a beige claro */
+    color: #333; /* Color de texto oscuro */
+    font-family: Arial, sans-serif; /* Fuente legible */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Centrar horizontalmente el contenido */
+}
+
+img {
+    border: 3px solid #006400; /* Añadir bordes verdes a todas las imágenes */
+    display: block; /* Hacer que las imágenes sean bloques para centrarlas fácilmente */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+}
+
+h1, h2, h3 {
+    color: #006400; /* Verde oscuro para los títulos */
+}
+
+a {
+    color: #006400; /* Verde oscuro para los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+.Imagenes{
+    border: 3px solid #006400; /* Añadir bordes verdes a todas las imágenes */
+    display: inline-flex;
+    vertical-align: top; /* Alinear las imágenes en la parte superior */
+    justify-content:center;
+}
+
+#Titulo {    
+    color: #fff; /* Cambiar el color del texto a blanco */
+    font-size: 2.5rem; /* Aumentar el tamaño de fuente */
+    letter-spacing: 2px; /* Añadir un espaciado entre caracteres */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar una sombra sutil */
+    background-color: #006400; /* Cambiar el color de fondo a verde oscuro */
+    padding: 10px 20px; /* Añadir relleno alrededor del texto */
+    border-radius: 10px; /* Añadir bordes redondeados */
+    font-family: 'Playfair Display', serif; /* Cambiar el tipo de letra */
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; /* Cambiar el tipo de letra para todos los párrafos */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    line-height: 1.1; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Margen inferior para separar los párrafos */
+}
+
+ol {
+    font-family: 'Montserrat', sans-serif; /* Cambiar el tipo de letra */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Margen inferior para separar las listas */
+}
+
+ol li {
+    margin-bottom: 8px; /* Espaciado entre elementos de la lista */
+    list-style-type: none; /* Ocultar los números de lista predeterminados */
+    counter-increment: item; /* Incrementar el contador solo para el pseudo-elemento */
+}
+
+ol li::before {
+    content: counter(item); /* Mostrar el número de lista personalizado */
+    color: #006400; /* Color del número de lista */
+    font-weight: bold; /* Hacer el número de lista en negrita */
+    margin-right: 8px; /* Espaciado a la derecha del número de lista */
+    font-family: 'Arial', sans-serif; /* Cambiar el tipo de letra */
+}
+
+table {
+    width: 100%; /* Ancho de la tabla al 100% del contenedor */
+    border-collapse: collapse; /* Colapso de los bordes de la tabla */
+    margin-bottom: 20px; /* Margen inferior para separar la tabla */
+}
+
+th, td {
+    padding: 8px; /* Relleno interior de las celdas */
+    text-align: center; /* Centrar el texto */
+    border: 1px solid #ccc; /* Borde de 1px sólido de color gris */
+}
+
+th {
+    background-color: #006400; /* Color de fondo para las celdas de encabezado */
+    color: white; /* Color del texto en las celdas de encabezado */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color de fondo para filas pares */
+}
+
+tr:hover {
+    background-color: #ddd; /* Color de fondo al pasar el ratón sobre una fila */
+}
